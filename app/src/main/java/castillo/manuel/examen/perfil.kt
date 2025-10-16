@@ -26,7 +26,6 @@ fun ProfileScreen() {
             .background(Color.White)
             .padding(16.dp)
     ) {
-        // Encabezado con imagen de perfil
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Box(
                 modifier = Modifier
@@ -55,10 +54,7 @@ fun ProfileScreen() {
         Text("Aprendiendo", fontWeight = FontWeight.Bold, fontSize = 18.sp)
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Golem
         LearningItem("Sitios web", R.drawable.golem)
-
-        // Robot
         LearningItem("Programacion", R.drawable.robot)
     }
 }

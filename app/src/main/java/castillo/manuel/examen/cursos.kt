@@ -39,7 +39,6 @@ fun CourseScreen() {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Tarjeta con el dragón verde
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -78,15 +77,12 @@ fun CourseScreen() {
         Text("Courses", fontWeight = FontWeight.Bold, fontSize = 18.sp)
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Golem
         CourseItem(
             title = "Sitios web",
             date = "Comienza el 1 de agosto",
             price = "$199.80",
             imageRes = R.drawable.golem
         )
-
-        // Robot
         CourseItem(
             title = "Programacion",
             date = "Comienza el 1 de septiembre",

@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun DualScreen() {
     Row(modifier = Modifier.fillMaxSize()) {
-        // Pantalla de cursos con scroll independiente
+
         Box(
             modifier = Modifier
                 .weight(1f)
@@ -21,14 +21,12 @@ fun DualScreen() {
             CourseScreen()
         }
 
-        // Divider entre pantallas
         Divider(
             modifier = Modifier
                 .width(1.dp)
                 .fillMaxHeight()
         )
-
-        // Pantalla de perfil con scroll independiente
+        
         Box(
             modifier = Modifier
                 .weight(1f)
