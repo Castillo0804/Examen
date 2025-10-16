@@ -26,7 +26,7 @@ fun DualScreen() {
                 .width(1.dp)
                 .fillMaxHeight()
         )
-        
+
         Box(
             modifier = Modifier
                 .weight(1f)
